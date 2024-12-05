@@ -46,7 +46,8 @@ def get_graph(*file_names):
     plt.title(f'y = {y} の場合')
     plt.xlabel('x の値') # x 軸のラベル
     plt.ylabel('処理時間 [μs]') # y 軸のラベル
-    plt.legend() # 凡例を表示
+    plt.ylim(-40, 600) # y軸を固定
+    plt.legend(loc='upper left') # 凡例を左上に表示
     plt.tight_layout()
     plt.show()
 
