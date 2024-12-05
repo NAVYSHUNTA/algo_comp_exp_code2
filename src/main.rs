@@ -15,8 +15,8 @@ fn main() {
 
     // 以下のコメントアウトを外して、各アルゴリズムの実験結果を表示
     const INDEX: usize = 0;
-    // print_experiment_result(INPUT_MAX_X, INPUT_Y[INDEX], &Algorithm::MODULO);
-    print_experiment_result(INPUT_MAX_X, INPUT_Y[INDEX], &Algorithm::MODULOALT);
+    print_experiment_result(INPUT_MAX_X, INPUT_Y[INDEX], &Algorithm::MODULO);
+    // print_experiment_result(INPUT_MAX_X, INPUT_Y[INDEX], &Algorithm::MODULOALT);
 }
 
 // 実験結果を出力する関数
