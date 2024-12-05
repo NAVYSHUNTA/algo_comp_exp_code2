@@ -51,3 +51,6 @@ def get_graph(*file_names):
     plt.show()
 
 get_graph('output0_modulo.txt', 'output0_moduloalt.txt')
+get_graph('output1_modulo.txt', 'output1_moduloalt.txt')
+get_graph('output2_modulo.txt', 'output2_moduloalt.txt')
+get_graph('output3_modulo.txt', 'output3_moduloalt.txt')
