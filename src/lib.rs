@@ -3,7 +3,7 @@
 // 出力: x % y
 // 計算量: O(1)
 pub fn modulo(x: i128, y: i128) -> i128 {
-    if x <= 0i128 || y <= 0i128 {
+    if x <= 0_i128 || y <= 0_i128 {
         panic!("正の整数を入力してください.");
     }
 
@@ -17,12 +17,12 @@ pub fn modulo(x: i128, y: i128) -> i128 {
 // 出力: x % y
 // 計算量: O(x / y)
 pub fn moduloalt(x: i128, y: i128) -> i128 {
-    if x <= 0i128 || y <= 0i128 {
+    if x <= 0_i128 || y <= 0_i128 {
         panic!("正の整数を入力してください.");
     }
 
     let mut t = x;
-    for _i in 1i128..=x {
+    for _i in 1_i128..=x {
         if y <= t {
             t = t - y;
         } else {

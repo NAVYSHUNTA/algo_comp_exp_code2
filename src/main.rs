@@ -38,7 +38,7 @@ pub fn get_experiment_datas(max_x: i128, select_algorithm: &Algorithm) -> Vec<(i
 
     let mut datas: Vec<(i128, u128)> = Vec::new();
     let y = 10;
-    for x in 1i128..=max_x {
+    for x in 1_i128..=max_x {
         let start_time: ProcessTime = ProcessTime::now(); // 計測開始
         let _res: i128 = algorithm(x, y);
         let duration: Duration = start_time.elapsed(); // 計測終了（計測結果）
